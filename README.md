@@ -15,10 +15,11 @@ ODA is documented mostly for members, in English, and spread over many pages. Th
 | Area | State |
 |---|---|
 | [Module 0 – Discovering ODA](docs/en/00-discovering-oda.md) | Draft, written |
+| [Module 1 – eTOM in practice](docs/en/01-etom-in-practice.md) | Draft, written |
 | [Source matrix](sources/source-matrix.md) | Started: separates what was checked from what a report claimed |
 | [Uncertainty register](docs/uncertainty-register.md) | Started |
 | [Labs plan](labs/README.md) | Planned, none implemented yet |
-| Modules 1 to 8, certification preparation | Not started |
+| Modules 2 to 8, certification preparation | Not started |
 
 Nothing here claims TM Forum conformance. A lab running locally proves that the lab runs, not that a product is conformant.
 
