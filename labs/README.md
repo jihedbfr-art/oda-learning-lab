@@ -12,5 +12,6 @@ All labs run locally, use synthetic data only, need no paid service, and make no
 | 2. A small product catalogue | Model offers, specifications and prices with original synthetic data | Local JSON and a Python standard-library script | [Executed locally](02-product-catalog/README.md) |
 | 3. A component contract | Check responsibilities, fields and declared dependencies | Standard Python, invented contracts | [Executed locally](03-component-contract/README.md) |
 | 4. An event trace | Inspect duplication, disorder, lateness and idempotency | Synthetic JSON and standard Python | [Executed locally](04-event-trace/README.md) |
+| 7. Module self-assessment | Revise with 30 original questions per language and section references | CSV and standard Python | [Executed locally](07-self-test/README.md) |
 
 Each lab will state its prerequisites, the commands, the assertions that must pass, its limits and its running cost.
