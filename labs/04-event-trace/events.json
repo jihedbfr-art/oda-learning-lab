@@ -1,0 +1,52 @@
+[
+  {
+    "id": "open-A",
+    "incident": "incident-A",
+    "agreement": "agreement-A",
+    "sequence": 1,
+    "kind": "opened",
+    "occurred": 0,
+    "received": 0,
+    "credits": 0
+  },
+  {
+    "id": "credit-A",
+    "incident": "incident-A",
+    "agreement": "agreement-A",
+    "sequence": 3,
+    "kind": "adjusted",
+    "occurred": 6,
+    "received": 7,
+    "credits": 3
+  },
+  {
+    "id": "restore-A",
+    "incident": "incident-A",
+    "agreement": "agreement-A",
+    "sequence": 2,
+    "kind": "restored",
+    "occurred": 5,
+    "received": 8,
+    "credits": 0
+  },
+  {
+    "id": "credit-A",
+    "incident": "incident-A",
+    "agreement": "agreement-A",
+    "sequence": 3,
+    "kind": "adjusted",
+    "occurred": 6,
+    "received": 9,
+    "credits": 3
+  },
+  {
+    "id": "review-A",
+    "incident": "incident-A",
+    "agreement": "agreement-A",
+    "sequence": 4,
+    "kind": "reviewed",
+    "occurred": 7,
+    "received": 20,
+    "credits": 0
+  }
+]
