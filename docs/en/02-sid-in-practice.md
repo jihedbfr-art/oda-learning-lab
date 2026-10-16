@@ -8,7 +8,7 @@ Unofficial community material, not affiliated with TM Forum. Prerequisite: [Modu
 
 SID is TM Forum's Information Framework. Its public overview describes shared business definitions independent of a platform, programming language or protocol ([official page](https://www.tmforum.org/open-digital-architecture/information-framework-sid/), read 2026-10-16). This module uses that purpose to ask a practical question: when work changes hands, are both teams talking about the same thing?
 
-An information model describes the meaning of business objects and their relationships. A data model makes implementation choices: tables or documents, keys, types and constraints. Agreeing that a purchase can need several technical provisions does not decide how many database tables to create. SID is neither a database nor software to install.
+An information model describes the meaning of business objects and their relationships. A data model makes implementation choices: tables or documents, keys, types and constraints. Agreeing that a purchase can need several technical setup steps does not decide how many database tables to create. SID is neither a database nor software to install.
 
 ## Product, service and resource
 

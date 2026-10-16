@@ -39,7 +39,7 @@ offer-C | spec-mix | voice, mobile-data | 18 credits/month (crédits/mois)
 offer-D | spec-mix | voice, mobile-data | 15 credits/month (crédits/mois)
 ```
 
-Cinq tests unitaires ont réussi. Ils vérifient le catalogue fourni, une référence de spécification absente, les identifiants d'offre dupliqués, les montants invalides et les structures de collections invalides. Ces tests protègent les liens et les montants utilisés dans l'exercice. La validation applique ces contraintes pédagogiques, pas un schéma JSON complet ; le lecteur examine la notice et les noms bilingues. Une entrée mal formée ou illisible produit une erreur bilingue et un code de sortie 1.
+Six tests unitaires ont réussi. Ils vérifient le catalogue fourni, une référence de spécification absente, les identifiants d'offre dupliqués, les montants invalides, les noms bilingues absents ou vides et les structures de collections invalides. Ces tests protègent les liens et les montants utilisés dans l'exercice. La validation applique ces contraintes pédagogiques, pas un schéma JSON complet ; le lecteur examine la notice et les noms bilingues. Une entrée mal formée ou illisible produit une erreur bilingue et un code de sortie 1.
 
 ## Exercice guidé
 
