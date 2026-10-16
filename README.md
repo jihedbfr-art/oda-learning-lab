@@ -17,10 +17,11 @@ ODA is documented mostly for members, in English, and spread over many pages. Th
 | [Module 0 – Discovering ODA](docs/en/00-discovering-oda.md) | Draft, written |
 | [Module 1 – eTOM in practice](docs/en/01-etom-in-practice.md) | Draft, written |
 | [Module 2 – SID in practice](docs/en/02-sid-in-practice.md) | Draft, written |
+| [Module 3 – Functional Framework in practice](docs/en/03-functional-framework-in-practice.md) | Draft, written |
 | [Source matrix](sources/source-matrix.md) | Started: separates what was checked from what a report claimed |
 | [Uncertainty register](docs/uncertainty-register.md) | Started |
 | [Labs plan](labs/README.md) | Lab 1 documented; interactive session not run |
-| Modules 3 to 8, certification preparation | Not started |
+| Modules 4 to 8, certification preparation | Not started |
 
 Nothing here claims TM Forum conformance. A lab running locally proves that the lab runs, not that a product is conformant.
 
