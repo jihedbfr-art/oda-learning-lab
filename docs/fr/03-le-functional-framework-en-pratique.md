@@ -40,7 +40,7 @@ Supposez que la réserve affecte une SIM de remplacement sans changer l’accord
 
 ## La place du TAM
 
-La matrice vérifiée et U5 indiquent que TM Forum présente le Functional Framework comme une évolution de l’Application Framework (TAM), désormais historique, sur la page citée. Cela établit cette relation publique seulement. Une correspondance complète de migration ou le retrait de tous les documents TAM restent à confirmer ; rien de tel n’est déduit ici.
+La matrice des sources et U5 consignent un point non tranché. Les pages publiques lues ne s’accordent pas sur la façon dont TM Forum décrit aujourd’hui la relation entre le Functional Framework et l’Application Framework (TAM) : une lecture a rapporté une évolution à partir du TAM, tandis qu’un recoupement a trouvé des pages de la suite TAM encore présentées comme courantes. Ce module n’affirme donc aucun statut du TAM et n’utilise aucune correspondance entre les deux cadres. Lisez vous-même la présentation citée avant de vous appuyer sur une affirmation à propos du TAM.
 
 ## Erreurs à éviter
 
