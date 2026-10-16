@@ -1,0 +1,14 @@
+{
+  "notice": {"en": "Synthetic data only. Invented offers, services and credits; no real currency or commercial tariff.", "fr": "Données synthétiques uniquement. Offres, services et crédits inventés ; aucune devise ni aucun tarif commercial réel."},
+  "specifications": [
+    {"id": "spec-talk", "services": ["voice"]},
+    {"id": "spec-data", "services": ["mobile-data"]},
+    {"id": "spec-mix", "services": ["voice", "mobile-data"]}
+  ],
+  "offers": [
+    {"id": "offer-A", "name": {"en": "Talk", "fr": "Parole"}, "specification": "spec-talk", "price": {"credits": 8, "period": "month"}},
+    {"id": "offer-B", "name": {"en": "Connect", "fr": "Connexion"}, "specification": "spec-data", "price": {"credits": 12, "period": "month"}},
+    {"id": "offer-C", "name": {"en": "Together", "fr": "Ensemble"}, "specification": "spec-mix", "price": {"credits": 18, "period": "month"}},
+    {"id": "offer-D", "name": {"en": "Together discovery", "fr": "Découverte ensemble"}, "specification": "spec-mix", "price": {"credits": 15, "period": "month"}}
+  ]
+}
