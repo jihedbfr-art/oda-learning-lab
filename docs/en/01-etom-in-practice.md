@@ -19,7 +19,7 @@ The map is usually taught with two directions, which is what makes it useful.
 
 A single business event therefore has two coordinates: which part of the business is acting, and which flow it belongs to.
 
-> This is the widely taught top-level view. Exact names, numbering and the number of levels depend on the published version of the framework, and that version is not public in full. Do not quote a level number from this page. See U1 in the [uncertainty register](../uncertainty-register.md).
+> This is the widely taught top-level view. Exact names, numbering and the number of levels depend on the published version of the framework, and the complete framework is not public. Do not quote a level number from this page. See U1 in the [uncertainty register](../uncertainty-register.md).
 
 ## Why the layers matter
 
