@@ -19,7 +19,7 @@ On enseigne habituellement la carte selon deux directions, et c'est ce qui la re
 
 Un même événement métier a donc deux coordonnées : quelle partie du métier agit, et à quel flux il appartient.
 
-> Ceci est la vue de premier niveau la plus couramment enseignée. Les noms exacts, la numérotation et le nombre de niveaux dépendent de la version publiée du framework, et cette version n'est pas publique en entier. Ne citez aucun numéro de niveau à partir de cette page. Voir U1 dans le [registre d'incertitudes](../uncertainty-register.fr.md).
+> Ceci est la vue de premier niveau la plus couramment enseignée. Les noms exacts, la numérotation et le nombre de niveaux dépendent de la version publiée du framework, et le framework complet n'est pas public. Ne citez aucun numéro de niveau à partir de cette page. Voir U1 dans le [registre d'incertitudes](../uncertainty-register.fr.md).
 
 ## Pourquoi les couches comptent
 

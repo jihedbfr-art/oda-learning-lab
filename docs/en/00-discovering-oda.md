@@ -47,4 +47,4 @@ There is no single correct answer. Compare your split with someone else's and ex
 
 ## Limits of this module
 
-It explains concepts, it does not reproduce any official text. The official vocabulary and versions of eTOM and SID are not public in full, so their exact current numbers are marked "to confirm" in the [uncertainty register](../uncertainty-register.md).
+It explains concepts, it does not reproduce any official text. The complete eTOM and SID models are not public. A SID version number is shown on the public overview page, while the eTOM one is still to confirm; the current state is tracked in the [uncertainty register](../uncertainty-register.md).

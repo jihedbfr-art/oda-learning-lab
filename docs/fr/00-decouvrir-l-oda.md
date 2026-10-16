@@ -47,4 +47,4 @@ Il n'y a pas de réponse unique. Comparez votre découpage avec celui de quelqu'
 
 ## Limites de ce module
 
-Il explique des concepts et ne reproduit aucun texte officiel. Le vocabulaire et les versions officiels d'eTOM et de SID ne sont pas publics en entier : leurs numéros exacts actuels sont donc marqués « à confirmer » dans le [registre d'incertitudes](../uncertainty-register.fr.md).
+Il explique des concepts et ne reproduit aucun texte officiel. Les modèles complets d'eTOM et de SID ne sont pas publics. Un numéro de version du SID est affiché sur la page de présentation publique, alors que celui d'eTOM reste à confirmer ; l'état actuel est suivi dans le [registre d'incertitudes](../uncertainty-register.fr.md).
