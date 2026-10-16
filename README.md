@@ -25,7 +25,7 @@ ODA is documented mostly for members, in English, and spread over many pages. Th
 | [Source matrix](sources/source-matrix.md) | Started: separates what was checked from what a report claimed |
 | [Uncertainty register](docs/uncertainty-register.md) | Started |
 | [Labs plan](labs/README.md) | Lab 1 documented; interactive session not run. Labs 2 to 4 and self-assessment executed locally |
-| Module 8, capstone architecture review | Not started |
+| [Module 8 – Capstone architecture review](docs/en/08-capstone-architecture-review.md) | Draft, written |
 
 Nothing here claims TM Forum conformance. A lab running locally proves that the lab runs, not that a product is conformant.
 

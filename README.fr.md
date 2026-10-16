@@ -25,7 +25,7 @@ L'ODA est surtout documentée pour les membres, en anglais, sur de nombreuses pa
 | [Matrice des sources](sources/source-matrix.fr.md) | Commencée : sépare ce qui a été vérifié de ce qu'un rapport affirme |
 | [Registre d'incertitudes](docs/uncertainty-register.fr.md) | Commencé |
 | [Plan des labs](labs/README.fr.md) | Lab 1 documenté ; session interactive non exécutée. Labs 2 à 4 et auto-évaluation exécutés localement |
-| Module 8, projet de synthèse | Pas commencés |
+| [Module 8 – Projet de synthèse](docs/fr/08-projet-de-synthese.md) | Brouillon rédigé |
 
 Rien ici ne revendique une conformité TM Forum. Un lab qui tourne en local prouve que le lab fonctionne, pas qu'un produit est conforme.
 
