@@ -8,7 +8,7 @@ Ressource communautaire non officielle, sans lien avec TM Forum. Prérequis : [m
 
 eTOM est le Business Process Framework de TM Forum. C'est une carte partagée de ce que fait une entreprise télécom, pour que des personnes de sociétés différentes puissent désigner la même chose et l'entendre de la même façon. C'est une manière de classer et de discuter des processus.
 
-Ce n'est pas un workflow, il n'impose aucun ordre d'exécution, et ce n'est pas un logiciel. Une plateforme de facturation peut supporter certains processus eTOM. Elle n'est pas eTOM.
+Ce n'est pas un flux de travail, il n'impose aucun ordre d'exécution, et ce n'est pas un logiciel. Une plateforme de facturation peut prendre en charge certains processus eTOM. Elle n'est pas eTOM.
 
 ## Lire la carte
 

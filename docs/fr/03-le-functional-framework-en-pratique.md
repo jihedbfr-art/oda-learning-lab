@@ -6,7 +6,7 @@ Ressource communautaire non officielle, sans lien avec TM Forum. Prérequis : [m
 
 ## Donner une place fonctionnelle au travail
 
-Un processus décrit le travail à réaliser. Un modèle d’information explique les objets concernés. Une vue fonctionnelle demande quelles responsabilités le logiciel doit assurer pour traiter ces objets. TM Forum présente son Functional Framework comme une vue partagée des activités et fonctions liées, côté systèmes ([présentation officielle](https://www.tmforum.org/oda/information-systems/functional-framework/), lue le 2026-10-16).
+Un processus décrit le travail à réaliser. Un modèle d’information explique les objets concernés. Une vue fonctionnelle demande quelles responsabilités le logiciel doit assurer pour traiter ces objets. TM Forum présente son Functional Framework comme une vue système partagée des activités et fonctions liées ([présentation officielle](https://www.tmforum.org/oda/information-systems/functional-framework/), lue le 16 octobre 2026).
 
 Pratiquons cette distinction avec notre forfait mobile. Chaque bloc ci-dessous porte un nom courant inventé. Aucun n’est un libellé officiel du framework ni une frontière d’application imposée.
 

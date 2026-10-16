@@ -30,6 +30,9 @@ def validate(data):
             if not isinstance(reference, str) or not reference or reference in offer_ids:
                 raise ValueError
             offer_ids.add(reference)
+            name = offer["name"]
+            if not all(isinstance(name[lang], str) and name[lang] for lang in ("en", "fr")):
+                raise ValueError
             if offer["specification"] not in spec_ids:
                 raise ValueError
             amount = offer["price"]["credits"]

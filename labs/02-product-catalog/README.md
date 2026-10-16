@@ -39,7 +39,7 @@ offer-C | spec-mix | voice, mobile-data | 18 credits/month (crédits/mois)
 offer-D | spec-mix | voice, mobile-data | 15 credits/month (crédits/mois)
 ```
 
-Five unit tests passed. They check the supplied catalogue, a missing specification reference, duplicate offer identifiers, invalid amounts and invalid collection structures. These tests protect the links and amounts used by the exercise. Validation enforces these exercise constraints, not a complete JSON schema; the learner reads the bilingual notice and names. Malformed or unreadable input produces a bilingual error and exit status 1.
+Six unit tests passed. They check the supplied catalogue, a missing specification reference, duplicate offer identifiers, invalid amounts, missing or empty bilingual names and invalid collection structures. These tests protect the links and amounts used by the exercise. Validation enforces these exercise constraints, not a complete JSON schema; the learner reads the bilingual notice and names. Malformed or unreadable input produces a bilingual error and exit status 1.
 
 ## Guided exercise
 

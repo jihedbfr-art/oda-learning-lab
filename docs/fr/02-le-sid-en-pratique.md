@@ -6,9 +6,9 @@ Ressource communautaire non officielle, sans lien avec TM Forum. Prérequis : [m
 
 ## Un sens partagé avant le choix du stockage
 
-SID est l’Information Framework de TM Forum. Sa présentation publique décrit des définitions métier partagées, indépendantes d’une plateforme, d’un langage ou d’un protocole ([page officielle](https://www.tmforum.org/open-digital-architecture/information-framework-sid/), lue le 2026-10-16). Quand le travail change de mains, les deux équipes parlent-elles de la même chose ?
+SID est l’Information Framework de TM Forum. Sa présentation publique décrit des définitions métier partagées, indépendantes d’une plateforme, d’un langage ou d’un protocole ([page officielle](https://www.tmforum.org/open-digital-architecture/information-framework-sid/), lue le 16 octobre 2026). Ce module part de cette vocation pour poser une question pratique : quand le travail change de mains, les deux équipes parlent-elles de la même chose ?
 
-Un modèle d’information décrit le sens des objets métier et leurs relations. Un modèle de données fixe des choix d’implémentation : tables ou documents, clés, types et contraintes. Dire qu’un achat peut demander plusieurs mises en place techniques ne décide pas du nombre de tables à créer. SID n’est ni une base de données ni un logiciel à installer.
+Un modèle d’information décrit le sens des objets métier et leurs relations. Un modèle de données fixe des choix d’implémentation : tables ou documents, clés, types et contraintes. Dire qu’un achat peut demander plusieurs étapes techniques de mise en service ne décide pas du nombre de tables à créer. SID n’est ni une base de données ni un logiciel à installer.
 
 ## Produit, service et ressource
 
