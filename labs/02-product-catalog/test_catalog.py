@@ -32,8 +32,16 @@ class CatalogTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate(data)
 
+    def test_missing_or_empty_name_is_rejected(self):
+        for name in ({"en": "Talk"}, {"en": "Talk", "fr": ""}, {"en": 1, "fr": "x"}, "Talk"):
+            with self.subTest(name=name):
+                data = copy.deepcopy(DATA)
+                data["offers"][0]["name"] = name
+                with self.assertRaises(ValueError):
+                    validate(data)
+
     def test_invalid_structure_is_rejected(self):
-        for data in ({}, {"specifications": [], "offers": []}, []):
+        for data in ({}, {"specifications": [], "offers": []}, [], None, "x", 42):
             with self.subTest(data=data), self.assertRaises(ValueError):
                 validate(data)
 

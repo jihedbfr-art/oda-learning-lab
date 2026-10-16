@@ -8,11 +8,11 @@ Ressource communautaire non officielle, sans lien avec TM Forum. Prérequis : [m
 
 Le bureau des commandes et l’atelier connexion du module 3 doivent échanger de l’information. Un contrat d’interface définit ce qu’un appelant peut demander et comment le destinataire représente sa réponse. Ce n’est pas le composant qui réalise ce comportement. Deux implémentations peuvent exposer le même contrat avec des choix de stockage et de déploiement différents.
 
-TM Forum publie un programme Open API et des définitions publiques ([présentation officielle](https://www.tmforum.org/oda/open-apis/), lue le 2026-10-16). Utilisons cinq dépôts pour choisir une interface adaptée à une interaction métier. Cette correspondance originale n’impose aucune séquence d’implémentation.
+TM Forum publie un programme Open API et des définitions publiques ([présentation officielle](https://www.tmforum.org/oda/open-apis/), lue le 16 octobre 2026). Utilisons cinq dépôts pour choisir une interface adaptée à une interaction métier. Cette correspondance originale n’impose aucune séquence d’implémentation.
 
 ## Cinq références, cinq rôles distincts
 
-Numéros, titres et licences ci-dessous ont été vérifiés directement le 2026-10-16. Les titres viennent des métadonnées des définitions liées. Définitions et LICENSE pointent vers des commits précis pour rendre la preuve reproductible ; aucun schéma ni exemple de charge utile n’est recopié ici.
+Numéros, titres et licences ci-dessous ont été vérifiés directement le 16 octobre 2026. Les titres viennent des métadonnées des définitions liées. Définitions et LICENSE pointent vers des commits précis pour rendre la preuve reproductible ; aucun schéma ni exemple de charge utile n’est recopié ici.
 
 | API | Titre de la définition liée | Interaction proposée | Licence du dépôt |
 |---|---|---|---|
