@@ -14,7 +14,7 @@ A telecom operator runs a lot of IT: ordering, billing, catalogue, network activ
 |---|---|---|
 | Business Process Framework (eTOM) | What does the operator do, end to end? | A map of business processes |
 | Information Framework (SID) | What things does the business talk about? | A shared vocabulary: customer, product, service, resource |
-| Functional Framework | Which functions group together? | Building blocks for applications; it follows the older Application Framework (TAM) |
+| Functional Framework | Which functions group together? | Building blocks for applications; its relationship to the Application Framework (TAM) is still to confirm (U5) |
 | Open APIs | How do systems talk to each other? | Standard REST interfaces for business functions |
 | ODA Components and Canvas | How is it built and run? | Deployable components, and the runtime that hosts them |
 
@@ -25,7 +25,7 @@ Mixing these up is the most common beginner mistake. eTOM is about processes, SI
 Some of the above can be inspected directly in public repositories, which makes it concrete.
 
 - The runtime is open source. The Canvas reference implementation lives at `tmforum-oda/oda-canvas`, licensed Apache-2.0. On 15 October 2026 its latest releases were in the 1.2 line, with a 1.2.6 release candidate dated 14 October.
-- A component is described by a manifest. The Canvas definition of that manifest currently carries four versions: `v1beta2`, `v1beta3`, `v1beta4` and `v1`. Teach `v1`; some older guideline pages still describe `v1beta2`.
+- A component is described by a manifest. The Canvas definition of that manifest currently carries four versions: `v1beta2`, `v1beta3`, `v1beta4` and `v1`. No recommended version is established (U2 is open), and some guideline pages still describe `v1beta2`.
 - The standard APIs are published in a separate public organisation, `tmforum-apis`, which held 97 repositories on the same date. The licence is stated per repository, so check it before reusing a file.
 
 ## Exercise

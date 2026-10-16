@@ -14,7 +14,7 @@ Un opérateur télécom fait tourner beaucoup d'informatique : commande, factura
 |---|---|---|
 | Business Process Framework (eTOM) | Que fait l'opérateur, de bout en bout ? | Une carte des processus métier |
 | Information Framework (SID) | De quoi parle le métier ? | Un vocabulaire partagé : client, produit, service, ressource |
-| Functional Framework | Quelles fonctions se regroupent ? | Des blocs pour les applications ; il fait suite à l'ancien Application Framework (TAM) |
+| Functional Framework | Quelles fonctions se regroupent ? | Des blocs pour les applications ; sa relation avec l'Application Framework (TAM) reste à confirmer (U5) |
 | Open APIs | Comment les systèmes se parlent-ils ? | Des interfaces REST standard pour des fonctions métier |
 | Composants ODA et Canvas | Comment est-ce construit et exécuté ? | Des composants déployables, et l'environnement d'exécution qui les héberge |
 
@@ -25,7 +25,7 @@ Les confondre est l'erreur de débutant la plus fréquente. eTOM parle de proces
 Une partie de ce qui précède peut être consultée directement dans des dépôts publics, ce qui rend le sujet concret.
 
 - L'environnement d'exécution est open source. L'implémentation de référence du Canvas se trouve dans `tmforum-oda/oda-canvas`, sous licence Apache-2.0. Au 15 octobre 2026, ses dernières versions étaient de la série 1.2, avec une préversion (release candidate) 1.2.6 datée du 14 octobre.
-- Un composant est décrit par un manifeste. La définition de ce manifeste dans le Canvas porte actuellement quatre versions : `v1beta2`, `v1beta3`, `v1beta4` et `v1`. Il faut enseigner la `v1` ; certaines anciennes pages de guidelines décrivent encore la `v1beta2`.
+- Un composant est décrit par un manifeste. La définition de ce manifeste dans le Canvas porte actuellement quatre versions : `v1beta2`, `v1beta3`, `v1beta4` et `v1`. Aucune version recommandée n'est établie (U2 reste ouverte), et certaines pages de guidelines décrivent encore la `v1beta2`.
 - Les API standard sont publiées dans une organisation publique distincte, `tmforum-apis`, qui comptait 97 dépôts à la même date. La licence est indiquée dépôt par dépôt : à vérifier avant de réutiliser un fichier.
 
 ## Exercice
