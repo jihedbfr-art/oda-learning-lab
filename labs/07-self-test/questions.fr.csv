@@ -1,0 +1,31 @@
+id,question,answer,module,section
+M1-01,Pourquoi la plateforme de facturation n’est-elle pas eTOM ?,eTOM classe des processus métier ; la plateforme en supporte certains.,docs/fr/01-etom-en-pratique.md,"Ce qu'est eTOM, et ce qu'il n'est pas"
+M1-02,Quelles deux coordonnées décrivent un événement métier ?,Le domaine métier qui agit et le flux de bout en bout.,docs/fr/01-etom-en-pratique.md,Lire la carte
+M1-03,Pourquoi la préparation de commande peut-elle nommer deux domaines ?,Elle transmet le travail du domaine client au domaine service.,docs/fr/01-etom-en-pratique.md,Exemple traité
+M1-04,Quel flux couvre la panne data signalée ?,"L’assurance, à travers les domaines client, service et ressource.",docs/fr/01-etom-en-pratique.md,Exemple traité
+M1-05,Pourquoi éviter de lire la carte comme une séquence fixe ?,"Elle décrit des familles de travail, pas un chemin d’exécution imposé.",docs/fr/01-etom-en-pratique.md,Erreurs à éviter
+M2-01,Que décrit le modèle d’information avant le choix des tables ?,Le sens des objets métier et leurs relations.,docs/fr/02-le-sid-en-pratique.md,Un sens partagé avant le choix du stockage
+M2-02,Quel objet de l’exercice change lors du remplacement de SIM ?,Le kit attribué ; l’accord forfait ne change pas forcément.,docs/fr/02-le-sid-en-pratique.md,"Produit, service et ressource"
+M2-03,Que faut-il préserver entre fiche de préparation et achat ?,Le lien vers l’accord forfait.,docs/fr/02-le-sid-en-pratique.md,Exemple traité
+M2-04,Pourquoi l’avis de disponibilité ne remplace-t-il pas l’accord ?,Il signale un changement ; l’accord continue d’exister.,docs/fr/02-le-sid-en-pratique.md,Erreurs à éviter
+M2-05,Pourquoi le mot ligne est-il risqué au relais ?,"Il peut désigner achat, connexion ou numéro ; préciser ce qui change.",docs/fr/02-le-sid-en-pratique.md,Erreurs à éviter
+M3-01,Quelle question ajoute la vue fonctionnelle ?,Quelles responsabilités logicielles traitent l’information métier.,docs/fr/03-le-functional-framework-en-pratique.md,Donner une place fonctionnelle au travail
+M3-02,Un bloc fonctionnel détermine-t-il une frontière de déploiement ?,Non ; regrouper les responsabilités ne tranche pas la conception applicative ou le déploiement.,docs/fr/03-le-functional-framework-en-pratique.md,Trois vues du même relais
+M3-03,Quel bloc est réutilisé pour la fourniture et l’investigation ?,L’atelier connexion.,docs/fr/03-le-functional-framework-en-pratique.md,Exemple traité
+M3-04,Que faut-il nommer avant de choisir une technologie ?,Le responsable de la décision.,docs/fr/03-le-functional-framework-en-pratique.md,Erreurs à éviter
+M3-05,Quels éléments décrivent chaque bloc de l’exercice ?,"Son entrée, sa sortie et le responsable de sa décision.",docs/fr/03-le-functional-framework-en-pratique.md,Exercice
+M4-01,Pourquoi deux implémentations peuvent-elles exposer le même contrat ?,Le contrat décrit la frontière sans fixer stockage interne ou déploiement.,docs/fr/04-les-open-apis-en-pratique.md,Un contrat au passage de relais
+M4-02,Qu’est-ce qui distingue une offre d’un produit détenu ?,L’offre est une possibilité ; l’inventaire enregistre une instance détenue.,docs/fr/04-les-open-apis-en-pratique.md,Erreurs à éviter
+M4-03,Pourquoi l’accusé de commande ne suffit-il pas pour annoncer la disponibilité ?,Accepter la demande ne prouve pas la fourniture réseau achevée.,docs/fr/04-les-open-apis-en-pratique.md,Exemple traité
+M4-04,Une fiche d’inventaire est-elle une commande d’activation ?,Non ; consulter une instance enregistrée diffère d’une commande d’activation.,docs/fr/04-les-open-apis-en-pratique.md,Exemple traité
+M4-05,Que vérifier avant de combiner des définitions d’API ?,"Les versions et la compatibilité des champs, opérations et comportements.",docs/fr/04-les-open-apis-en-pratique.md,Erreurs à éviter
+M5-01,Quels trois aspects décrivent le composant de l’exercice ?,"Responsabilités possédées, contrat exposé et contrats consommés.",docs/fr/05-les-composants-en-pratique.md,Donner une frontière aux responsabilités
+M5-02,Que signifie prepared dans le résultat du bureau ?,La préparation a passé ses contrôles ; ce n’est pas une preuve de disponibilité réseau.,docs/fr/05-les-composants-en-pratique.md,Exemple traité
+M5-03,Fournir offer-shelf prouve-t-il qu’une offre existe ?,"Non ; le lab contrôle des noms de dépendances, sans consultation.",docs/fr/05-les-composants-en-pratique.md,Exemple traité
+M5-04,Que se passe-t-il si charge-desk est ajouté aux dépendances ?,Il est rejeté comme non déclaré avant tout résultat.,docs/fr/05-les-composants-en-pratique.md,Exemple traité
+M5-05,Pourquoi lister aussi les contrats consommés ?,L’appelant doit comprendre les échecs liés aux services consommés.,docs/fr/05-les-composants-en-pratique.md,Erreurs à éviter
+M6-01,Pourquoi séparer rétablissement et ajustement de facture ?,Décisions et responsables diffèrent ; réparer seul n’établit aucun droit à crédit.,docs/fr/06-assurance-et-facturation-en-pratique.md,Suivre les preuves après la réparation
+M6-02,Pourquoi dédupliquer seul ne résout-il pas le désordre ?,Cela supprime les identités répétées sans attendre les prédécesseurs manquants.,docs/fr/06-assurance-et-facturation-en-pratique.md,Trois façons de perdre le relais
+M6-03,Quels totaux donnent les rejeux naïf et ordonné ?,Respectivement six et trois crédits inventés.,docs/fr/06-assurance-et-facturation-en-pratique.md,Exemple traité
+M6-04,Que se passe-t-il si le rétablissement est retiré ?,Les séquences trois et quatre attendent ; aucun ajustement n’est appliqué.,docs/fr/06-assurance-et-facturation-en-pratique.md,Exemple traité
+M6-05,Pourquoi ne pas dédupliquer seulement par référence d’accord ?,Plusieurs événements légitimes concernent le même accord.,docs/fr/06-assurance-et-facturation-en-pratique.md,Erreurs à éviter

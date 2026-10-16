@@ -12,5 +12,6 @@ Tous les labs tournent en local, n'utilisent que des données synthétiques, ne 
 | 2. Un petit catalogue produit | Modéliser offres, spécifications et prix sur des données synthétiques originales | JSON local et script Python sans dépendance externe | [Exécuté localement](02-product-catalog/README.fr.md) |
 | 3. Un contrat de composant | Vérifier responsabilités, champs et dépendances déclarées | Python standard, contrats inventés | [Exécuté localement](03-component-contract/README.fr.md) |
 | 4. Une trace d’événements | Examiner doublon, désordre, retard et idempotence | JSON synthétique et Python standard | [Exécuté localement](04-event-trace/README.fr.md) |
+| 7. Auto-évaluation des modules | Réviser avec 30 questions originales par langue et leurs références | CSV et Python standard | [Exécuté localement](07-self-test/README.fr.md) |
 
 Chaque lab indiquera ses prérequis, ses commandes, les assertions à satisfaire, ses limites et son coût d'exécution.

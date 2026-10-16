@@ -1,0 +1,31 @@
+id,question,answer,module,section
+M1-01,Why is the billing platform not eTOM?,eTOM classifies business processes; the platform supports some of them.,docs/en/01-etom-in-practice.md,"What eTOM is, and what it is not"
+M1-02,Which two coordinates describe a business event?,The business area acting and the end-to-end flow.,docs/en/01-etom-in-practice.md,Reading the map
+M1-03,Why can the order preparation step name two areas?,It hands work from the customer area to the service area.,docs/en/01-etom-in-practice.md,Worked example
+M1-04,Which flow covers the reported mobile-data failure?,"Assurance, across customer, service and resource areas.",docs/en/01-etom-in-practice.md,Worked example
+M1-05,Why avoid treating the process map as a fixed sequence?,It describes families of work rather than a mandatory execution path.,docs/en/01-etom-in-practice.md,Mistakes to avoid
+M2-01,What belongs in an information model before tables are chosen?,The meaning of business objects and their relationships.,docs/en/02-sid-in-practice.md,A shared meaning before a storage design
+M2-02,Which exercise object changes when a SIM is replaced?,The assigned kit; the plan agreement need not change.,docs/en/02-sid-in-practice.md,"Product, service and resource"
+M2-03,What must survive between the setup slip and the purchase?,The link back to the plan agreement.,docs/en/02-sid-in-practice.md,Worked example
+M2-04,Why does a ready notice not replace the agreement?,It reports a change while the agreement remains an object.,docs/en/02-sid-in-practice.md,Mistakes to avoid
+M2-05,Why is the word line risky at a hand-off?,"It may mean a purchase, a connection or a number; clarify which changed.",docs/en/02-sid-in-practice.md,Mistakes to avoid
+M3-01,What question does a functional view add?,Which software responsibilities handle the business information.,docs/en/03-functional-framework-in-practice.md,Give the work a functional home
+M3-02,Does a functional block determine a deployment boundary?,No; grouping responsibilities does not settle application or deployment design.,docs/en/03-functional-framework-in-practice.md,Three views of the same hand-off
+M3-03,Which block is reused for delivery and investigation?,The connection workshop.,docs/en/03-functional-framework-in-practice.md,Worked example
+M3-04,What should be named before a technology is selected?,Who owns the decision.,docs/en/03-functional-framework-in-practice.md,Mistakes to avoid
+M3-05,Which fields help describe each block in the exercise?,"Its input, output and decision owner.",docs/en/03-functional-framework-in-practice.md,Exercise
+M4-01,Why can two implementations expose the same contract?,A contract specifies boundary behaviour without fixing internal storage or deployment.,docs/en/04-open-apis-in-practice.md,A contract at the hand-off
+M4-02,What differs between an offer and a product held by a customer?,The offer is a possibility; an inventory records an owned instance.,docs/en/04-open-apis-in-practice.md,Mistakes to avoid
+M4-03,Why is an order acknowledgement insufficient for announcing readiness?,Acceptance of the request is not evidence of completed network delivery.,docs/en/04-open-apis-in-practice.md,Worked example
+M4-04,Is an inventory record a network activation command?,No; inspecting recorded instances is different from commanding activation.,docs/en/04-open-apis-in-practice.md,Worked example
+M4-05,What must be checked before combining API definitions?,"Versions and compatibility of fields, operations and behaviour.",docs/en/04-open-apis-in-practice.md,Mistakes to avoid
+M5-01,Which three design aspects describe the exercise component?,"Owned responsibilities, exposed contract and consumed contracts.",docs/en/05-components-in-practice.md,Give responsibilities a boundary
+M5-02,What does prepared mean in the order-desk result?,Preparation passed its checks; it is not evidence of network readiness.,docs/en/05-components-in-practice.md,Worked example
+M5-03,Does supplying offer-shelf prove an offer exists?,No; the lab checks dependency names and performs no lookup.,docs/en/05-components-in-practice.md,Worked example
+M5-04,What happens if charge-desk is supplied as an additional dependency?,It is rejected as undeclared before a result is returned.,docs/en/05-components-in-practice.md,Worked example
+M5-05,Why list consumed contracts as well as exposed contracts?,Callers must understand failures caused by consumed services.,docs/en/05-components-in-practice.md,Mistakes to avoid
+M6-01,Why separate restoration from a billing adjustment?,They are different decisions with different owners; repair alone establishes no entitlement.,docs/en/06-assurance-and-billing-in-practice.md,Follow the evidence beyond restoration
+M6-02,Why does deduplication alone not solve out-of-order delivery?,It removes repeated identities but does not wait for missing predecessors.,docs/en/06-assurance-and-billing-in-practice.md,Three ways a relay can fail
+M6-03,What totals do the naive and ordered replay produce?,Six and three invented credits respectively.,docs/en/06-assurance-and-billing-in-practice.md,Worked example
+M6-04,What happens when restoration is removed?,Sequences three and four remain pending and no adjustment is applied.,docs/en/06-assurance-and-billing-in-practice.md,Worked example
+M6-05,Why not deduplicate using only the agreement reference?,Several legitimate events can concern the same agreement.,docs/en/06-assurance-and-billing-in-practice.md,Mistakes to avoid
