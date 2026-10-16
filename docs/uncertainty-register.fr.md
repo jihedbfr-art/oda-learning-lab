@@ -1,16 +1,16 @@
-# Registre d'incertitudes
+# Registre d’incertitudes
 
 [English version](uncertainty-register.md)
 
-Questions ouvertes qui limitent ce que ce dépôt peut affirmer. Pour fermer un point, citez une source publique et la date de lecture.
+État au 16 octobre 2026. « Fermé » s’applique uniquement à la question et à la portée indiquées. Les preuves historiques ne sont pas présentées comme de nouvelles vérifications.
 
-| ID | Question | Pourquoi c'est important | Comment la fermer |
-|---|---|---|---|
-| U1 | Versions publiées actuelles d'eTOM et de SID | Les modules 1 et 2 ne doivent citer aucune version sans source | Lire les pages officielles ; si le numéro est réservé aux membres, le dire |
-| U2 | Quelle version du manifeste de composant TM Forum recommande aujourd'hui | Le Canvas en accepte quatre ; la page des guidelines en montre une plus ancienne | Consulter les notes de version du Canvas et l'historique du dépôt des guidelines |
-| U3 | Périmètre exact des examens réservés aux membres | La page sur la certification ne doit pas induire en erreur | Lire directement les pages officielles des examens et des cours |
-| U4 | Licence de chaque dépôt d'Open API | Détermine ce qui peut être réutilisé dans les labs | Vérifier chaque dépôt avant de copier un fichier |
-| U5 | Statut de l'Application Framework (TAM) | Le module 3 présente le Functional Framework comme son successeur | Confirmer sur la page officielle du framework |
-| U6 | Si les pages d'examens et de cours sont accessibles sans compte | Décide comment les modules 7 et 8 les référencent | Les ouvrir déconnecté et noter le résultat |
+| ID | Question | État | Preuve | Source | Date de revue | Limite / suite |
+|---|---|---|---|---|---|---|
+| U1 | Versions publiées actuelles eTOM et SID | Partiellement | SID v26.0 visible dans le catalogue public ; eTOM v26.0 seulement indexé, page 403 | <https://www.tmforum.org/open-digital-architecture/information-framework-sid/> | 2026-10-16 | Confirmer eTOM directement ; les numéros visibles ne rendent pas les modèles complets publics |
+| U2 | Version de manifeste recommandée | Ouvert | Preuve conservée du 15 octobre : Canvas accepte quatre versions, guidelines décrit v1beta2 | <https://tmforum-oda.github.io/oda-ca-docs/docs/ODAComponentDesignGuidelines.html> | 2026-10-16 | Recommandation non établie ; historique du dépôt et notes de version non revérifiés |
+| U3 | Périmètre des examens réservés aux membres | Partiellement | La page publique réserve généralement les examens aux employés de sociétés membres | <https://www.tmforum.org/learn/certification/assessments/prove-your-mettle/> | 2026-10-16 | Restriction générale vérifiée ; exceptions et liste par examen/bundle à confirmer |
+| U4 | Licence de chaque dépôt Open API | Partiellement | Fichiers LICENSE des cinq dépôts TMF620, TMF622, TMF638, TMF637, TMF639 lus : Apache-2.0 | [Matrice](../sources/source-matrix.fr.md) | 2026-10-16 | Vérifier séparément tout autre dépôt avant réutilisation |
+| U5 | Statut TAM face au Functional Framework | Fermé | La page officielle décrit le Functional Framework comme une évolution de TAM, désormais legacy | <https://www.tmforum.org/oda/information-systems/functional-framework/> | 2026-10-16 | Fermé pour cette relation publique ; aucune suppression de TAM déduite |
+| U6 | Accessibilité des examens et des cours sans compte | Partiellement | Pages examens et éducation accessibles sans compte | <https://www.tmforum.org/learn/education/exams/> | 2026-10-16 | Les pages publiques ne prouvent ni accès au cours complet ni possibilité de passer un examen ; portail non essayé |
 
-Les prix des cours sont volontairement hors périmètre.
+U1 : la page eTOM et les deux pages détaillées SID sont inaccessibles le 2026-10-16 (403), voir les URL et limites dans la [matrice](../sources/source-matrix.fr.md). U6 : la [page éducation](https://www.tmforum.org/learn/education/) a aussi été lue le 2026-10-16. Aucun compte utilisé. Les prix des cours restent hors périmètre.
