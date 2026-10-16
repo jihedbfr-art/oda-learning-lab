@@ -40,7 +40,7 @@ Suppose the kit shelf allocates a replacement SIM while the original plan agreem
 
 ## Where TAM fits
 
-The checked source matrix and U5 record that TM Forum presents the Functional Framework as an evolution of the now legacy Application Framework (TAM), on the overview cited above. That establishes the public relationship only. A complete migration mapping or the withdrawal of every TAM document remains to confirm; neither is inferred here.
+The source matrix and U5 record an unresolved point. The public pages we read do not agree on how TM Forum now describes the relationship between the Functional Framework and the Application Framework (TAM): one reading reported an evolution from TAM, while a cross-check found TAM suite pages still shown as current. This module therefore states no status for TAM and uses no mapping between the two frameworks. Read the cited overview yourself before relying on any statement about TAM.
 
 ## Mistakes to avoid
 
