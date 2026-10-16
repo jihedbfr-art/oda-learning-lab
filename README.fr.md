@@ -17,10 +17,12 @@ L'ODA est surtout documentée pour les membres, en anglais, sur de nombreuses pa
 | [Module 0 – Découvrir l'ODA](docs/fr/00-decouvrir-l-oda.md) | Brouillon rédigé |
 | [Module 1 – eTOM en pratique](docs/fr/01-etom-en-pratique.md) | Brouillon rédigé |
 | [Module 2 – Le SID en pratique](docs/fr/02-le-sid-en-pratique.md) | Brouillon rédigé |
+| [Module 3 – Le Functional Framework en pratique](docs/fr/03-le-functional-framework-en-pratique.md) | Brouillon rédigé |
+| [Module 4 – Les Open APIs en pratique](docs/fr/04-les-open-apis-en-pratique.md) | Brouillon rédigé |
 | [Matrice des sources](sources/source-matrix.fr.md) | Commencée : sépare ce qui a été vérifié de ce qu'un rapport affirme |
 | [Registre d'incertitudes](docs/uncertainty-register.fr.md) | Commencé |
 | [Plan des labs](labs/README.fr.md) | Lab 1 documenté ; session interactive non exécutée. Lab 2 exécuté localement |
-| Modules 3 à 8, préparation aux certifications | Pas commencés |
+| Modules 5 à 8, préparation aux certifications | Pas commencés |
 
 Rien ici ne revendique une conformité TM Forum. Un lab qui tourne en local prouve que le lab fonctionne, pas qu'un produit est conforme.
 
