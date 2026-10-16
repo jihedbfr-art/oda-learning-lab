@@ -14,7 +14,7 @@ Ce projet communautaire est indépendant. Il n'est ni affilié à TM Forum, ni s
 - Les questions d'examen, banques de questions ou « dumps », sous quelque forme que ce soit.
 - Les contenus réservés aux membres.
 
-Les conditions d'utilisation du site publiées par TM Forum limitent la reproduction de ses contenus. Les lire avant de réutiliser quoi que ce soit du site officiel : <https://www.tmforum.org/legal/website-terms-of-use/> (lues telles que citées par un rapport de recherche ; à confirmer directement).
+Les conditions d'utilisation du site publiées par TM Forum limitent la reproduction de ses contenus. Les lire avant de réutiliser quoi que ce soit du site officiel : <https://www.tmforum.org/legal/website-terms-of-use/> (lues le 16 octobre 2026, « Last Modified » 16 June 2025 ; le résumé figure dans la [matrice des sources](sources/source-matrix.fr.md) et ne constitue pas un avis juridique).
 
 ## Code open source de TM Forum
 

@@ -14,7 +14,7 @@ This is an independent community project. It is not affiliated with, sponsored b
 - Exam questions, question banks or "dumps" of any kind.
 - Content reserved for members.
 
-The website terms of use published by TM Forum restrict reproduction of its materials. Read them before reusing anything from the official site: <https://www.tmforum.org/legal/website-terms-of-use/> (read as cited by a research report; to confirm directly).
+The website terms of use published by TM Forum restrict reproduction of its materials. Read them before reusing anything from the official site: <https://www.tmforum.org/legal/website-terms-of-use/> (read on 16 October 2026, "Last Modified" 16 June 2025; the summary is in the [source matrix](sources/source-matrix.md), and it is not legal advice).
 
 ## Open source code from TM Forum
 
