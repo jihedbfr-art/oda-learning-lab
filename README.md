@@ -41,3 +41,10 @@ Code: [Apache License 2.0](LICENSE). Written content: [CC BY 4.0](LICENSE-CONTEN
 ## Contributing
 
 Corrections to a source or a version are the most useful contribution. Open an issue with the page, the claim and the public source that contradicts it.
+
+---
+
+<p align="center">
+  <img src="assets/jihedailabs-logo.svg" alt="JihedAiLabs" width="80" height="80"><br>
+  <sub>Built and maintained under <b>JihedAiLabs</b>.</sub>
+</p>
