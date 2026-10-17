@@ -29,6 +29,17 @@ ODA is documented mostly for members, in English, and spread over many pages. Th
 
 Nothing here claims TM Forum conformance. A lab running locally proves that the lab runs, not that a product is conformant.
 
+## Companion tools
+
+Two small tools grew out of the modules. Both run offline, ship with tests and bilingual messages, and were tried on real public files.
+
+| Tool | Use it with | What it does |
+|---|---|---|
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | [Module 4](docs/en/04-open-apis-in-practice.md) | Checks an OpenAPI/Swagger description against the habits seen in public telecom APIs, and lists the changes between two versions that would break callers |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | [Module 5](docs/en/05-components-in-practice.md) | Checks a component manifest against the published schema before it reaches a cluster: unknown fields, missing required fields, wrong types, mismatches with its own services |
+
+They are independent projects, not part of this study path, and say nothing about TM Forum conformance.
+
 ## Rules for the content
 
 - Original wording only. No copied specification text, UML schema, figure or exam question.

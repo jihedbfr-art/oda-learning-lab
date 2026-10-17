@@ -29,6 +29,17 @@ L'ODA est surtout documentée pour les membres, en anglais, sur de nombreuses pa
 
 Rien ici ne revendique une conformité TM Forum. Un lab qui tourne en local prouve que le lab fonctionne, pas qu'un produit est conforme.
 
+## Outils associés
+
+Deux petits outils sont nés des modules. Tous deux fonctionnent hors ligne, sont livrés avec des tests et des messages bilingues, et ont été essayés sur de vrais fichiers publics.
+
+| Outil | À utiliser avec | Ce qu'il fait |
+|---|---|---|
+| [openapi-sentinel](https://github.com/jihedbfr-art/openapi-sentinel) | [Module 4](docs/fr/04-les-open-apis-en-pratique.md) | Vérifie une description OpenAPI/Swagger au regard des habitudes des API télécom publiques, et liste les changements entre deux versions qui casseraient les appelants |
+| [component-manifest-lint](https://github.com/jihedbfr-art/component-manifest-lint) | [Module 5](docs/fr/05-les-composants-en-pratique.md) | Vérifie un manifeste de composant au regard du schéma publié avant qu'il n'atteigne un cluster : champs inconnus, champs obligatoires absents, mauvais types, incohérences avec ses propres services |
+
+Ce sont des projets indépendants, hors de ce parcours d'étude, et ils ne disent rien de la conformité à TM Forum.
+
 ## Règles pour le contenu
 
 - Formulations originales uniquement. Aucun texte de spécification, schéma UML, figure ou question d'examen copié.
