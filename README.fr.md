@@ -26,6 +26,7 @@ L'ODA est surtout documentée pour les membres, en anglais, sur de nombreuses pa
 | [Registre d'incertitudes](docs/uncertainty-register.fr.md) | Commencé |
 | [Plan des labs](labs/README.fr.md) | Lab 1 documenté ; session interactive non exécutée. Labs 2 à 4 et auto-évaluation exécutés localement |
 | [Module 8 – Projet de synthèse](docs/fr/08-projet-de-synthese.md) | Brouillon rédigé |
+| [Glossaire](docs/fr/glossary-termes.md) et [FAQ pour débuter](docs/fr/faq-debutants.md) | 30 termes reliés aux sections des modules ; 12 questions de débutant |
 
 Rien ici ne revendique une conformité TM Forum. Un lab qui tourne en local prouve que le lab fonctionne, pas qu'un produit est conforme.
 
