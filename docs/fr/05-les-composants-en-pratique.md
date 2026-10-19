@@ -31,6 +31,14 @@ Le dictionnaire retourné par `describe()` annonce cette petite conception. `pre
 
 L'opération consommée est déclarée, sans être appelée. Fournir le nom `offer-shelf` ne prouve ni l'existence d'une offre ni la disponibilité d'une autre implémentation. Une dépendance `charge-desk` non déclarée est rejetée avant tout résultat. Une dépendance cachée devient ainsi visible sans ajouter de serveur ni d'appel réseau.
 
+## Comparer deux déclarations
+
+Le [lab 5](../../labs/05-contract-drift/README.fr.md) compare deux déclarations inventées d'opérations et de champs de requête plats. Sa règle de revue classe l'ajout d'un champ optionnel comme compatible, un champ devenu obligatoire ou un type élargi comme à examiner, et le retrait d'une opération, le retrait d'un champ obligatoire ou un changement de type incompatible comme rupture. Rendre un champ obligatoire peut déjà casser un appelant ; le classement à examiner demande de vérifier les usages sans supposer leur sécurité.
+
+Un type s'élargit lorsque l'ensemble accepté grandit strictement : `integer` vers `number`, ou `string` vers `["string", "null"]`, dans cet exercice. Les types inconnus sont rejetés. Ces règles appartiennent à notre format pédagogique et ne constituent pas une politique universelle de compatibilité.
+
+Deux déclarations identiques peuvent masquer un changement de comportement. Leur comparaison n'appelle aucune opération et n'observe ni ordre des événements, persistance ou idempotence ; il faut des preuves d'exécution telles que le rejeu distinct du lab 4.
+
 ## Erreurs à éviter
 
 - Faire d'un bloc fonctionnel une frontière de déploiement automatique. Expliquez pourquoi ses responsabilités devraient évoluer ensemble.

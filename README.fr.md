@@ -21,10 +21,10 @@ L'ODA est surtout documentée pour les membres, en anglais, sur de nombreuses pa
 | [Module 4 – Les Open APIs en pratique](docs/fr/04-les-open-apis-en-pratique.md) | Brouillon rédigé |
 | [Module 5 – Les composants en pratique](docs/fr/05-les-composants-en-pratique.md) | Brouillon rédigé |
 | [Module 6 – Assurance et facturation en pratique](docs/fr/06-assurance-et-facturation-en-pratique.md) | Brouillon rédigé |
-| [Module 7 – Préparer les certifications](docs/fr/07-preparer-les-certifications.md) | Brouillon rédigé ; 30 questions originales par langue |
+| [Module 7 – Préparer les certifications](docs/fr/07-preparer-les-certifications.md) | Brouillon rédigé ; 33 questions originales par langue |
 | [Matrice des sources](sources/source-matrix.fr.md) | Commencée : sépare ce qui a été vérifié de ce qu'un rapport affirme |
 | [Registre d'incertitudes](docs/uncertainty-register.fr.md) | Commencé |
-| [Plan des labs](labs/README.fr.md) | Lab 1 documenté ; session interactive non exécutée. Labs 2 à 4 et auto-évaluation exécutés localement |
+| [Plan des labs](labs/README.fr.md) | Lab 1 documenté ; session interactive non exécutée. Labs 2 à 5 et auto-évaluation exécutés localement |
 | [Module 8 – Projet de synthèse](docs/fr/08-projet-de-synthese.md) | Brouillon rédigé |
 | [Glossaire](docs/fr/glossary-termes.md) et [FAQ pour débuter](docs/fr/faq-debutants.md) | 30 termes reliés aux sections des modules ; 12 questions de débutant |
 

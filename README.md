@@ -21,10 +21,10 @@ ODA is documented mostly for members, in English, and spread over many pages. Th
 | [Module 4 – Open APIs in practice](docs/en/04-open-apis-in-practice.md) | Draft, written |
 | [Module 5 – Components in practice](docs/en/05-components-in-practice.md) | Draft, written |
 | [Module 6 – Assurance and billing in practice](docs/en/06-assurance-and-billing-in-practice.md) | Draft, written |
-| [Module 7 – Preparing for certification](docs/en/07-preparing-for-certification.md) | Draft, written; 30 original questions per language |
+| [Module 7 – Preparing for certification](docs/en/07-preparing-for-certification.md) | Draft, written; 33 original questions per language |
 | [Source matrix](sources/source-matrix.md) | Started: separates what was checked from what a report claimed |
 | [Uncertainty register](docs/uncertainty-register.md) | Started |
-| [Labs plan](labs/README.md) | Lab 1 documented; interactive session not run. Labs 2 to 4 and self-assessment executed locally |
+| [Labs plan](labs/README.md) | Lab 1 documented; interactive session not run. Labs 2 to 5 and self-assessment executed locally |
 | [Module 8 – Capstone architecture review](docs/en/08-capstone-architecture-review.md) | Draft, written |
 | [Glossary](docs/en/glossary-terms.md) and [beginner FAQ](docs/en/faq-beginners.md) | 30 terms linked to module sections; 12 beginner questions |
 

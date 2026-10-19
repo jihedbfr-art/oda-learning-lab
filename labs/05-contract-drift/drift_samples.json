@@ -1,0 +1,29 @@
+{
+  "before": {
+    "exposes": {
+      "prepare": {
+        "fields": {
+          "agreement": {"type": "string", "required": true},
+          "offer": {"type": "string", "required": true},
+          "note": {"type": "string", "required": false},
+          "quantity": {"type": "integer", "required": false},
+          "tag": {"type": "string", "required": false}
+        }
+      },
+      "cancel": {"fields": {"agreement": {"type": "string", "required": true}}}
+    }
+  },
+  "after": {
+    "exposes": {
+      "prepare": {
+        "fields": {
+          "agreement": {"type": "string", "required": true},
+          "note": {"type": "string", "required": true},
+          "quantity": {"type": "number", "required": false},
+          "tag": {"type": "integer", "required": false},
+          "comment": {"type": "string", "required": false}
+        }
+      }
+    }
+  }
+}
