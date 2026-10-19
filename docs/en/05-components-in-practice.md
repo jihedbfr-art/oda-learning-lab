@@ -31,6 +31,14 @@ The dictionary returned by `describe()` announces this small design. `prepare()`
 
 The consumed operation is declared, not invoked. Passing the name `offer-shelf` proves neither that an offer exists nor that another implementation can be reached. An undeclared `charge-desk` is rejected before any result is returned. This makes a hidden dependency visible without adding a server or network call.
 
+## Compare two declarations
+
+[Lab 5](../../labs/05-contract-drift/README.md) compares two invented declarations of operations and flat request fields. Its review policy calls an optional field addition compatible, a field becoming required or a type widening a change to review, and an operation removal, required field removal or incompatible type change a break. Making a field required may already break a caller; the review label asks a person to examine usage, not to assume safety.
+
+A type widens when its accepted set strictly grows: `integer` to `number`, or `string` to `["string", "null"]`, in this exercise. Unknown types are rejected. These rules belong to our teaching format and do not establish a universal compatibility policy.
+
+Two identical declarations can hide changed behaviour. Comparing them neither invokes the operations nor observes event order, persistence or idempotence; those need runtime evidence such as the separate replay in Lab 4.
+
 ## Mistakes to avoid
 
 - Treating one functional block as an automatic deployment boundary. Explain why its responsibilities should change together.

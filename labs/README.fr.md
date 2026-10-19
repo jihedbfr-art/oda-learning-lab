@@ -2,7 +2,7 @@
 
 [English version](README.md)
 
-Le lab 1 est documenté ; sa session interactive reste non exécutée. Le lab 2 a été exécuté localement. Les labs 3 et 4 ont été exécutés localement.
+Le lab 1 est documenté ; sa session interactive reste non exécutée. Le lab 2 a été exécuté localement. Les labs 3 à 5 ont été exécutés localement.
 
 Tous les labs tournent en local, n'utilisent que des données synthétiques, ne demandent aucun service payant et ne revendiquent aucune conformité TM Forum.
 
@@ -12,6 +12,7 @@ Tous les labs tournent en local, n'utilisent que des données synthétiques, ne 
 | 2. Un petit catalogue produit | Modéliser offres, spécifications et prix sur des données synthétiques originales | JSON local et script Python sans dépendance externe | [Exécuté localement](02-product-catalog/README.fr.md) |
 | 3. Un contrat de composant | Vérifier responsabilités, champs et dépendances déclarées | Python standard, contrats inventés | [Exécuté localement](03-component-contract/README.fr.md) |
 | 4. Une trace d’événements | Examiner doublon, désordre, retard et idempotence | JSON synthétique et Python standard | [Exécuté localement](04-event-trace/README.fr.md) |
-| 7. Auto-évaluation des modules | Réviser avec 30 questions originales par langue et leurs références | CSV et Python standard | [Exécuté localement](07-self-test/README.fr.md) |
+| 5. Dérive d’un contrat | Comparer deux déclarations inventées et classer les changements | JSON synthétique et Python standard | [Exécuté localement](05-contract-drift/README.fr.md) |
+| 7. Auto-évaluation des modules | Réviser avec 33 questions originales par langue et leurs références | CSV et Python standard | [Exécuté localement](07-self-test/README.fr.md) |
 
 Chaque lab indiquera ses prérequis, ses commandes, les assertions à satisfaire, ses limites et son coût d'exécution.

@@ -29,3 +29,6 @@ M6-02,Why does deduplication alone not solve out-of-order delivery?,It removes r
 M6-03,What totals do the naive and ordered replay produce?,Six and three invented credits respectively.,docs/en/06-assurance-and-billing-in-practice.md,Worked example
 M6-04,What happens when restoration is removed?,Sequences three and four remain pending and no adjustment is applied.,docs/en/06-assurance-and-billing-in-practice.md,Worked example
 M6-05,Why not deduplicate using only the agreement reference?,Several legitimate events can concern the same agreement.,docs/en/06-assurance-and-billing-in-practice.md,Mistakes to avoid
+M5-06,How does Lab 5 classify adding an optional request field?,Compatible under this lab policy; runtime behaviour still needs evidence.,docs/en/05-components-in-practice.md,Compare two declarations
+M5-07,Why does integer becoming number need review in Lab 5?,The accepted set grows to include non-integer numbers; examine the meaning of those newly accepted values.,docs/en/05-components-in-practice.md,Compare two declarations
+M5-08,Can identical declarations prove that an adjustment is applied once?,No. Declaration comparison does not observe idempotence; runtime evidence is needed.,docs/en/05-components-in-practice.md,Compare two declarations

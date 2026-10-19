@@ -6,9 +6,9 @@ from quiz import load_bank, select_questions
 
 
 class QuizTests(unittest.TestCase):
-    def test_banks_have_thirty_paired_original_items(self):
+    def test_banks_have_thirty_three_paired_original_items(self):
         en, fr = load_bank("en"), load_bank("fr")
-        self.assertEqual(len(en), 30)
+        self.assertEqual(len(en), 33)
         self.assertEqual([q["id"] for q in en], [q["id"] for q in fr])
         self.assertTrue(all(q["question"] != f["question"] for q, f in zip(en, fr)))
 
@@ -19,10 +19,10 @@ class QuizTests(unittest.TestCase):
         self.assertEqual(len({q["id"] for q in first}), 7)
 
     def test_all_items_can_be_selected(self):
-        self.assertEqual(len(select_questions(load_bank("fr"), 30, 1)), 30)
+        self.assertEqual(len(select_questions(load_bank("fr"), 33, 1)), 33)
 
     def test_invalid_counts_fail(self):
-        for count in (0, -1, 31, True):
+        for count in (0, -1, 34, True):
             with self.subTest(count=count), self.assertRaises(ValueError):
                 select_questions(load_bank("en"), count, 1)
 
